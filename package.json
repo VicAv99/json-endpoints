@@ -4,9 +4,12 @@
   "description": "Deploy JSON Server to Vercel",
   "main": "api/server.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "json-server api/data.js"
   },
   "dependencies": {
     "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
   }
 }
